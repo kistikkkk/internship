@@ -1,0 +1,11 @@
+console.log("Числа задаются случайно");
+let a = Math.floor(Math.random() * 101);
+console.log("a = " + a);
+let b = Math.floor(Math.random() * 101);
+console.log("b = " + b);
+let s = (a + b)/2;
+console.log("Среднее арифметическое чисел = " + s);
+let c = Math.abs(a);
+let d = Math.abs(b);
+let m = Math.sqrt(c*d);
+console.log("Среднее геометрическое модулей чисел = " + m);
