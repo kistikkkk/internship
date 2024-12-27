@@ -1,0 +1,11 @@
+console.log("Числа a и b задаются случайно");
+let a = Math.floor(Math.random() * 101);
+console.log("a = " + a);
+let b = Math.floor(Math.random() * 101);
+console.log("b = " + b);
+let sum = a + b;
+console.log("Сумма чисел = " + sum);
+let diff = a - b;
+console.log("Разность чисел = " + diff);
+let prod = a*b;
+console.log("Произведение чисел = " + prod);
