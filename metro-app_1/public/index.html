@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagination</title>
+  <meta charset="utf-8"/>
+  <style>
+    html, body {
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+    }
+
+    main {
+      width: 1024px;
+      margin: 0 auto;
+    }
+
+    nav {
+      display: flex;
+      gap: 5px;
+    }
+
+    .stations {
+      padding: 0;
+      list-style: none;
+    }
+
+    .station {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 10px; /* Added margin for spacing */
+    }
+
+    .line {
+      border-radius: 12px;
+      color: whitesmoke;
+      padding: 4px;
+      background-color: #007bff; /* Example color */
+    }
+
+    .filter {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+      height: 36px;
+    }
+
+    .filter > input[type=text] {
+      flex-grow: 1;
+      padding-left: 7px;
+    }
+  </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+</body>
+</html>
